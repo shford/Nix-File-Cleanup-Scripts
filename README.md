@@ -13,6 +13,7 @@ If you're getting an error it's almost guranteed to be an error with file permis
 In a Linux terminal:
 
 ```sh
+cd /~/Desktop/
 git clone https://github.com/shford/Nix-File-Cleanup-Scripts.git
 chmod 744 Delete_NonMP4s.sh
 ```
@@ -24,7 +25,7 @@ Open a Linux Terminal
 cd /~/Desktop/
 ./script.sh click_and_hold_to_drag_and_drop_folder_into_terminal
 ```
-Follow prompts, I recommend utilizing the backup feature until you're familiar with the tool although it's hard to mess up.
+Follow the prompts - I recommend utilizing the backup feature until you're familiar with the tool although it's hard to mess up.
 
 ## Release History and Support
 Tested and regurlarly used on Ubuntu 18.04 and 20.04. Runs off bash shell. Fairly basic script - should work across on modern version of bash. Might work on other shells but currently untested.
